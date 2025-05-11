@@ -21,7 +21,7 @@ public class StudentController {
     public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
-gi
+
     // Add a New Student
     @PostMapping
     public Student createStudent(@RequestBody Student student) {
